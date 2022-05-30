@@ -169,6 +169,7 @@ body {
 }
 */
 
+
 body {
   margin: 0;
   border: 5px solid black;
@@ -207,4 +208,32 @@ body {
   position: fixed;
   top: 5px;
   left: 5px;
+}
+
+button {
+  background-color: skyblue;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  /* position: relative;
+  top: 100px;
+  left: 100px; */
+}
+button:hover {
+  background-color: rgb(80, 120, 136);
+}
+
+.blog {
+  width: 300px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: lightgrey;
+}
+.blog img {
+  width: 300px;
+}
+.blog h3, p {
+  padding-left: 10px;
+  padding-right: 10px;
 }
